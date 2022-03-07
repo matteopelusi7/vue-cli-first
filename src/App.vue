@@ -1,17 +1,20 @@
 <template>
   <div id="app">
    <TitleCli />
+   <heroJumbo />
   </div>
 </template>
 
 <script>
 
 import TitleCli from './components/Title.vue'
+import heroJumbo from './components/Hero.vue'
 
 export default {
   name: 'App',
   components: {
-    TitleCli
+    TitleCli,
+    heroJumbo
   }
 }
 </script>
